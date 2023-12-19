@@ -1,0 +1,1 @@
+.main-container{height:calc(100vh - 80px);position:relative;display:flex;flex-direction:column;justify-content:center}.main-container::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-image:url("../img/mallorca_1.jpg");background-size:cover;filter:contrast(80%);z-index:-1}.main-text{margin-left:40px;padding-bottom:100px;text-shadow:10px #151515}
