@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Leading company with over 60 years of experience in the comprehensive management of estates, communities, and properties. We guarantee efficient and sustainable operation, standing out for our professionalism and seriousness. We continually improve service quality, ensuring deadlines, budgets, and owner satisfaction. We provide clear and updated information on the economic status and operation of each property. Optimize your investment with us, where excellence and legality converge.">
+  <link rel="icon" type="image/png" href="/static/img/valls_logo_icon.png">
+  <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/header.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/select-country.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+  <title>Valls Administration | Home</title>
+</head>
+
+<body>
+  <header class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="header_logo">
+        <img src="/static/img/valls_logo.png" alt="Valls Administration Logo">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Property Management</a>
+      <a href="#">Rental Management</a>
+      <a href="#">Legal Department</a>
+      <a href="#">Insurance Brokerage</a>
+      <a href="#">Contact</a>
+      <div class="select-box">
+        <div class="select-box__current" tabindex="1">
+          <div class="select-box__value">
+            <input class="select-box__input" type="radio" id="0" value="1" name="lang" />
+            <p class="select-box__input-text">
+              <img class="select-img" src="/static/img/es.svg" alt="Spanish" />
+            </p>
+          </div>
+          <div class="select-box__value">
+            <input class="select-box__input" type="radio" id="1" value="2" name="lang" checked />
+            <p class="select-box__input-text">
+              <img class="select-img" src="/static/img/gb.svg" alt="English" />
+            </p>
+          </div>
+          <img class="select-box__icon" src="/static/img/chevron_down.svg" alt="Arrow Icon" aria-hidden="true" />
+        </div>
+        <ul class="select-box__list">
+          <li>
+            <label id="input-lang-es" class="select-box__option" for="0" aria-hidden="aria-hidden">
+              <img class="select-img" src="/static/img/es.svg" alt="Spanish" />
+            </label>
+          </li>
+          <li>
+            <label id="input-lang-en" class="select-box__option" for="1" aria-hidden="aria-hidden">
+              <img class="select-img" src="/static/img/gb.svg" alt="English" />
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main_container">
+      <div class="main_text">
+        <h1>Valls Administration</h1>
+        <div class="main_text_button"">
+          <a class=" button" target="_blank" href="https://www.idealista.com/pro/valls-inmobiliaria">FIND YOUR HOME</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+<script>
+  const lang = document.getElementById('input-lang-es')
+  lang.addEventListener('click', () => {
+    window.location.assign('/')
+  })
+</script>
+
+</html>

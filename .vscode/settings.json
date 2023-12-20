@@ -9,7 +9,7 @@
     //   "extensionName": ".css",
     //   "savePath": null,
     //   "savePathReplacementPairs": {
-    //     "/sass/": "/css/"
+    //     "/sass/": "/static/css/"
     //   }
     // },
     {
@@ -17,7 +17,7 @@
       "extensionName": ".css",
       "savePath": null,
       "savePathReplacementPairs": {
-        "/sass/": "/css/"
+        "/sass/": "/static/css/"
       },
       "generateMap": false
     }
