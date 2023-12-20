@@ -1,11 +1,12 @@
 @import 'palette'
 
-.main-container
+.main_container
   height: calc(100vh - 80px)
   position: relative
   display: flex
   flex-direction: column
   justify-content: center
+  align-items: flex-end
 
   &::before
     content: ""
@@ -14,12 +15,30 @@
     left: 0
     width: 100%
     height: 100%
-    background-image: url("../img/mallorca_1.jpg")
+    background-image: url("../img/hero.jpeg")
     background-size: cover
-    filter: contrast(80%)
+    background-repeat: no-repeat
+    background-position-y: 75%
+    filter: contrast(90%) brightness(55%)
     z-index: -1
 
-.main-text
-  margin-left: 40px
-  padding-bottom: 100px
+.main_text
+  margin-right: 0
+  padding: 0 20px 0 20px
   text-shadow: 10px $dcolor1
+
+  & h1
+    text-align: center
+
+.main_text_button
+  display: flex
+  margin-top: 20px
+  justify-content: center
+
+@media (min-width: 800px)
+  .main_text
+    margin-right: 100px
+    padding: 150px 20px 0 20px
+
+  .main_text_button
+    justify-content: flex-end
