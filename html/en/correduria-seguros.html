@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Empresa líder con más de 60 años de experiencia en la gestión integral de fincas, comunidades e inmuebles. Garantizamos un funcionamiento eficiente y sostenible, destacando por nuestra profesionalidad y seriedad. Mejoramos constantemente la calidad de los servicios, asegurando plazos, presupuestos y la satisfacción de los propietarios. Proporcionamos información clara y actualizada sobre el estado económico y el funcionamiento de cada propiedad. Optimize su inversión con nosotros, donde la excelencia y la legalidad se encuentran.">
+  <meta name="description" content="">
   <link rel="icon" type="image/png" href="/static/img/valls_logo_icon.png">
   <link rel="stylesheet" type="text/css" href="/static/css/index.css">
   <link rel="stylesheet" type="text/css" href="/static/css/header.css">
   <link rel="stylesheet" type="text/css" href="/static/css/select-country.css">
-  <link rel="stylesheet" type="text/css" href="/static/css/home.css">
-  <title>Administraciones Valls | Inicio</title>
+  <title>Administraciones Valls | Insurance Brokerage</title>
 </head>
 
 <body>
@@ -30,22 +28,22 @@
       </label>
     </div>
     <div class="nav-links">
-      <a href="/">Inicio</a>
-      <a href="/administracion-fincas">Administración de Fincas</a>
-      <a href="/gestion-alquileres">Gestión de Alquileres</a>
-      <a href="/departamento-juridico">Departamento Jurídico</a>
-      <a href="/correduria-seguros">Correduría de Seguros</a>
-      <a href="/contacto">Contacto</a>
+      <a href="/en/">Home</a>
+      <a href="/en/administracion-fincas">Property Management</a>
+      <a href="/en/gestion-alquileres">Rental Management</a>
+      <a href="/en/departamento-juridico">Legal Department</a>
+      <a href="/en/correduria-seguros">Insurance Brokerage</a>
+      <a href="/en/contacto">Contact</a>
       <div class="select-box">
         <div class="select-box__current" tabindex="1">
           <div class="select-box__value">
-            <input class="select-box__input" type="radio" id="0" value="1" name="lang" checked />
+            <input class="select-box__input" type="radio" id="0" value="1" name="lang" />
             <p class="select-box__input-text">
               <img class="select-img" src="/static/img/es.svg" alt="Spanish" />
             </p>
           </div>
           <div class="select-box__value">
-            <input class="select-box__input" type="radio" id="1" value="2" name="lang" />
+            <input class="select-box__input" type="radio" id="1" value="2" name="lang" checked />
             <p class="select-box__input-text">
               <img class="select-img" src="/static/img/gb.svg" alt="English" />
             </p>
@@ -68,22 +66,13 @@
     </div>
   </header>
   <main>
-    <div class="main_container">
-      <div class="main_text">
-        <h1>Administraciones Valls</h1>
-        <div class="main_text_button"">
-          <a class=" button" target="_blank" href="https://www.idealista.com/pro/valls-inmobiliaria">
-          ENCUENTRA TU HOGAR
-          </a>
-        </div>
-      </div>
-    </div>
+    <h1>Insurance Brokerage</h1>
   </main>
 </body>
 <script>
-  const lang = document.getElementById('input-lang-en')
+  const lang = document.getElementById('input-lang-es')
   lang.addEventListener('click', () => {
-    window.location.assign('/en')
+    window.location.assign('/correduria-seguros')
   })
 </script>
 
