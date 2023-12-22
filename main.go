@@ -44,7 +44,7 @@ func main() {
 	fileServer(r, "/static", filesDir)
 
 	port := 80
-	serverAddr := fmt.Sprintf("127.0.0.1:%d", port)
+	serverAddr := fmt.Sprintf("0.0.0.0:%d", port)
 
 	fmt.Printf("Server is running on port: %d", port)
 	err := http.ListenAndServe(serverAddr, r)
