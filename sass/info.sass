@@ -1,0 +1,53 @@
+.info
+  padding: 50px 20px
+  font-size: 1.6rem
+  display: flex
+  justify-content: center
+
+  &_content
+    max-width: 850px
+
+  & h1
+    text-align: center
+
+  & p
+    margin: 10px 0
+
+  & ul
+    padding: 0 20px
+
+  & li
+    margin: 7px 0
+
+  &_section
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    gap: 30px
+    margin: 20px 0
+
+  &_text
+    width: 100%
+
+  &_figure
+    width: 100%
+    & img
+      width: 100%
+
+@media (min-width: 800px)
+  .info
+    padding: 50px
+
+    & h1
+      text-align: left
+
+    &_section
+      flex-direction: row
+
+    &_text
+      width: 50%
+
+    &_figure
+      width: 50%
+      & img
+        width: 100%
